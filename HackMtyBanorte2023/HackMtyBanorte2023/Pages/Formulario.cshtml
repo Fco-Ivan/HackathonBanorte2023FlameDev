@@ -1,0 +1,141 @@
+﻿@page
+@model HackMtyBanorte2023.Pages.FormularioModel
+@{
+}
+<br />
+<br />
+<br />
+<br />
+
+<div class="row">
+    <h3>¿Cuál es tu principal objetivo?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg1" value="Tener Fondo de Emergencia">Tener Fondo de Emergencia</h5>
+        <p>Tener un fondo de emergencia</p>
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg1" value="Construir mi patrimonio">Construir mi patrimonio</h5>
+        <p>Incrementar mi ahorro para comprar, iniciar un negocio, etc</p>
+    </div>
+    
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg1" value="Invertir para mi retiro">invertir para mi retiro</h5>
+        <p>mantener un buen estilo de vida para el futuro</p>
+    </div>
+    <br />
+    <h3>¿Cuál es tu principal objetivo?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg2" value="Tener un fondo de emergencia">Tener un fondo de emergencia </h5>
+        <p>Tener un respaldo para imprevistos</p>
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg2" value="Construir mi patrimonio">Construir mi patrimonio</h5>
+        <p>Incrementar mi ahorro para comprar una vivienda , iniciar un negocio, etc.</p>
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg2" value="Invertir para mi retiro">Invertir para mi retiro</h5>
+        <p>Mantener un buen estilo de vida para el futuro.</p>
+    </div>
+    <br />
+    <h3>¿Cuál es tu actividad econónica?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg3" value="Comerciante">Comerciante</h5>
+        
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg3" value="Profesionista independiente">Profesionista independiente</h5>
+        
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg3" value="Profesionista asalariado">Profesionista asalariado</h5>
+        
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg3" value="Jubilado o pensionado">Jubilado o pensionado</h5>
+
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg3" value="Otros">Otros</h5>
+
+    </div>
+    <br />
+     <h3>¿Cuál es tu último grado de estudios?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg4" value="Sin escolaridad">Sin escolaridad</h5>
+        
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg4" value="Primaria">Primaria</h5>
+        
+    </div>
+    
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg4" value="Secundaria">Secundaria</h5>
+        
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg4" value="Preparatoria">Preparatoria</h5>
+
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg4" value="Licenciatura">Licenciatura</h5>
+
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg4" value="Maestría/Doctorado">Maestría/Doctorado</h5>
+
+    </div>
+    <br />
+    <h3>¿Cuanto ganas al mes?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        @Html.TextBox("Salario")
+        <p>Tener un fondo de emergencia</p>
+    </div>
+
+    <h3>¿Cuanto quieres ganar?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        @Html.TextBox("SalarioDeseado")
+        <p>Tener un fondo de emergencia</p>
+    </div>
+
+    <br />
+    <h3>¿el dinero que invertirás de donde proviene?</h3>
+    <br></br>
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg7" value="pension">Pensión</h5>
+        <p>Tener un fondo de emergencia</p>
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg7" value="sueldo">Sueldo</h5>
+    </div>
+
+    <div class="col-sm-4">
+        <h5><input type="radio" name="preg7" value="utilidad">Utilidad de negocio propio</h5>
+    </div>
+    <br />
+    <a asp-page="/BanIA_Intro" class="btn btn-primary">Perfilar</a>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modern-business.js"></script>
+
+</div>
